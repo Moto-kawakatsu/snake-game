@@ -48,6 +48,19 @@
       ctx.fillRect(this.x*GRID, this.y*GRID, GRID, GRID);
     }
   }
+
+    // 初期化処理
+    const init = () => {
+    snake.x = STAGE / 2;
+    snake.y = STAGE / 2;
+    snake.tail = 4;
+    snake.body = [];
+    
+    item.x = Math.floor(Math.random() * STAGE);
+    item.y = Math.floor(Math.random() * STAGE);    
+  }
+
+  
 </script>
 </body>
 </html>
