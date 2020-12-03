@@ -35,6 +35,19 @@
         if(this.x === obj.x && this.y === obj.y) init();
       })
 
+    // ヘビの長さ調整
+      if(this.body.length >= this.tail) this.body.shift();
+    }
+  }
+  const item = {
+    x: null,
+    y: null,
+    
+    update: function() {
+      ctx.fillStyle = 'red';
+      ctx.fillRect(this.x*GRID, this.y*GRID, GRID, GRID);
+    }
+  }
 </script>
 </body>
 </html>
