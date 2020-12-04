@@ -9,8 +9,6 @@ JavaScript学習の一環として作成したスネークゲームです。
 長さからやり直しになります。
 <br>  
 
-<div align="center">
 <img src="https://i.gyazo.com/a2d5ae1d1851a876978a21aec0d3e0da.gif" alt="属性" title="タイトル">
-</div>
 
   
